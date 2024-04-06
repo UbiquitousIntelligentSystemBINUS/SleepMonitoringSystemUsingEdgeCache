@@ -1,6 +1,6 @@
 # Introduction
 
-Sleep monitoring system using edge computing and caching adalah sebuah sistem pemantau kualitas tidur yang menggunakan teknologi edge computing untuk mendekatkan proses-proses komputasi ke endpoint sehingga mengurangi dependensi sistem dengan kualitas jaringan yang baik. Sistem ini menggunakan asristektur microservices sehingga membutuhkan message broker untuk mengirimkan pesan dimana pada sistem ini menggunakan MQTT karena ringan sehingga cocok untuk edge computing yang memiliki resource yang cukup terbatas. Caching pada sistem ini menggunakan Redis yang dimana library untuk penggunaannya dapat diperoleh di banyak bahasa pemrogaman.
+Sleep monitoring system using edge computing and caching adalah sebuah sistem pemantau kualitas tidur yang menggunakan teknologi edge computing untuk mendekatkan proses-proses komputasi ke endpoint sehingga mengurangi dependensi sistem dengan kualitas jaringan yang baik dan juga menggunakan caching untuk mengoptimalkan kerja sistem. Sistem ini menggunakan asristektur microservices sehingga membutuhkan message broker untuk mengirimkan pesan dimana pada sistem ini menggunakan MQTT karena ringan sehingga cocok untuk edge computing yang memiliki resource yang cukup terbatas. Caching pada sistem ini menggunakan Redis yang dimana library untuk penggunaannya dapat diperoleh di banyak bahasa pemrogaman.
 
 
 # Panduan Setup MQTT
